@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Find My own Drink</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container shadow p-3 my-5 bg-body rounded">
+    <section id="main" class="mx-auto my-5">
+      <h1>바니와 함께 인생 술 찾기</h1>
+      <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="./img/main.png" alt="mainImage" class="img-fluid">
+      </div>
+      <p>
+        아래 시작하기 버튼을 통해 몰랐던 나의 술 취향을 찾아보세요!
+      </p>
+      <button type="button" class="rButton mt-3 py-2 px-3" onclick="js:begin()">시작하기</button>
+    </section>
+    <section id="qna" class="mx-auto my-5">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar">
+        </div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">
+
+      </div>
+      <div class="answerBox">
+
+      </div>
+    </section>
+    <section id="result" class="mx-auto my-5 py-5 px-3">
+      <h4>당신의 취향은...</h4>
+      <div class="resultname">
+
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+
+      </div>
+      <div class="resultDesc">
+
+      </div>
+      <button type="button" class="rButton mt-3 py-2 px-3" onclick="">구독하기</button>
+      <br>
+      <button type="button" class="rButton mt-3 py-2 px-3" onclick="">결과 공유하기</button>
+    </section>
+    <script src="./js/dTest.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>
